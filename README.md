@@ -25,9 +25,13 @@ Create and activate a virtual environment:
 
 python -m venv venv
 # On Windows
+```shell
 venv\Scripts\activate
+```
 # On Linux/macOS
+```shell
 source venv/bin/activate
+```
 
 
 Install dependencies:
@@ -41,13 +45,17 @@ Start the FastAPI server with:
 uvicorn main:app --reload --port 8080
 ```
 
-The GraphQL playground will be available at:
+```
 
-http://localhost:8080/graphql
+# Usage
 
-Usage
+Once the server is running, you can:
 
-Once the server is running, you can interact with your GraphQL API using the playground or any GraphQL client:
+Perform queries to fetch data.
+
+Execute mutations to modify data.
+
+Explore the schema with autocomplete and type hints in the playground.
 
 Perform queries to fetch data.
 
