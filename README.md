@@ -20,6 +20,7 @@ A backend API built with **FastAPI** and **GraphQL**, providing flexible query a
 git clone https://github.com/aabasimel/fastapi-graphql-api.git
 cd fastapi-graphql-api
 ```
+
 Create and activate a virtual environment:
 
 python -m venv venv
@@ -30,7 +31,7 @@ source venv/bin/activate
 
 
 Install dependencies:
-
+```shell
 pip install -r requirements.txt
 
 Running the Application
@@ -38,7 +39,7 @@ Running the Application
 Start the FastAPI server with:
 
 uvicorn main:app --reload --port 8080
-
+```
 
 The GraphQL playground will be available at:
 
